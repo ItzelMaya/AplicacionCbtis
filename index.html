@@ -1,0 +1,520 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>App CBTis16</title>
+<!--grupo css-->
+<link rel="stylesheet" href="css/appcbtis.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script><!--Script para imagenes de sustitución-->
+<script type="text/javascript">
+</script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>CBTis16</h1>
+   </div>
+  <div data-role="main" class="ui-content">
+   <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Información General</h2>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Oferta Educativa</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Aspirantes</h2>
+     </a>
+    </li>   
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Becas</h2>
+     </a>
+    </li>  
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Instalaciones</h2>
+     </a>
+    </li>  
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Contactanos</h2>
+     </a>
+    </li>   
+   </ul>
+  </div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <br>
+   <div>
+    <img src="res/android/icon.png" width="46" height="46">
+   </div>
+    <h4>Centro de Bachillerato Técnologico Industrial y de Servicios</h4>
+  </div>
+ </div>
+</div>
+</div> <!--cierra div de data-role1-->
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Información General</h1>
+   </div>
+   <div data-role="content">
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Materias</h1>
+         <div>
+          <li>Álgebra</li>
+          <li>Inglés I, II, III, IV y  V</li>
+          <li>Química I y II</li>
+          <li>Tecnologías de la Información y la Comunicación</li>
+          <li>Lógica</li>
+          <li>Lectura, Expresión Oral y Escrita I y II</li>
+          <li>Geometría y Trigonometría</li>
+          <li>Geometría Analítica</li>
+          <li>Biología y Ecología</li>
+          <li>Ética</li>
+          <li>Cálculo Diferencial</li>
+          <li>Física I y II</li>
+          <li>Cálculo Integral</li>
+          <li>Ciencia, Tecnología, Sociedad y Valores</li>
+          <li>Probabilidad y Estadística</li>
+          <li>Temas de Filosofía</li>
+          <li>Temas de Física</li>
+          <li>Dibujo Técnico</li>
+          <li>Matemáticas Aplicadas</li>
+
+         </div> 
+        </div>
+      </div>
+      
+      
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Duración</h1>
+         <div>
+         <p>3 Años (6 Semestres).</p>
+         <br>
+         </div>
+       </div>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Modalidad</h1>
+         <div>
+         <p>Educación Escolarizada: Esta modalidad es una formación bivalente, por una parte se egresa con una carrera técnica con los conocimientos, habilidades y destrezas para integrarse al sector productivo como técnico profesional y por otra parte ofrece al egresado la posibilidad de continuar sus estudios del nivel superior.</p>
+         <br>
+         </div>
+       </div>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Plan de Estudios</h1>
+         <div>
+         <li>Está organizado en seis semestres e integrados por asignaturas y módulos que están distribuidos en tres componentes de formación: básica, propedéutica y profesional cubriendo un total de 2800 horas por semestre en 16 semanas y un trabajo promedio de 30 horas de trabajo académico por semana.</li>
+         <li>El componente de formación básica con 1200 horas: se articula con la educación básica y con la de tipo superior, aborda los conocimientos esenciales de la ciencia, la tecnología y las humanidades, aporta fundamentos a la formación propedéutica y a la profesional y está integrado por asignaturas.</li>
+         <li>Se distribuyen en cuatro campos de conocimiento, como son 1 Matemáticas, 2 Ciencias naturales, 3 Comunicación, 4 Humanidades, 5 Historia, sociedad y tecnología.</li>
+         <li>El componente de formación propedéutica con 480 horas: se articula con la educación superior, pone énfasis en una profundización de los conocimientos disciplinares que favorezca una mejor incorporación de los egresados a instituciones de ese tipo educativo y está integrado por asignaturas.</li>
+         <li>Se organiza en tres áreas que permiten la convergencia e integración de los saberes previamente adquiridos: Físico –matemática; Químico – biológica y Económico – administrativa. (Sus seis asignaturas se ubican en el 5º y 6º Semestres, tres de ellas son comunes para las tres áreas, dos más son específicas para cada área y la última es elegida por el estudiante de acuerdo con la oferta del plantel.</li>
+         <li>El componente de formación profesional con 1200 horas: es la formación tecnológica se da a partir del segundo semestre, te preparan como técnico del nivel medio superior, se organiza en carreras estructuradas en módulos para desarrollar las competencias profesionales correspondientes al campo de formación profesional de la carrera técnica elegida.</li>
+         </div>
+       </div>
+      </div>
+    </div>   
+    <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Itzel Noemí Maya Muciño</h4>
+   </div>
+ </div>
+    
+    <!--Página 2-->
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Oferta Educativa</h1>
+   </div>
+   <div data-role="content">
+    <h2 align="center">Carreras</h2>
+    <p>Al egresar de esta Carrera serás un Profesional capaz de desarrollar programas, operar paquetes de cómputo, analizar y diseñar sistemas para las diferentes necesidades de los usuarios, asi como al desarrollo de Programas en diferentes lenguajes de programación. Puedes continuar tus estudios de Nivel Superior en las siguientes carreras:</p>
+   </div>
+   <div data-role="main" class="ui-content">
+   <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Programaión</h2>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Logística</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Mecanica Industrial</h2>
+     </a>
+    </li>   
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Electricidad</h2>
+     </a>
+    </li>  
+   </ul>
+     </div>
+    </div>
+   <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Itzel Noemí Maya Muciño</h4>
+  </div>
+ </div>
+ 
+ <!--Pagina 3 "Aspirantes"-->
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Aspirantes</h1>
+   </div>
+   <div data-role="content">
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Requisitos para solicitar ficha</h1>
+         <div>
+         <li>Constancia de estudios de ser alumno regular de 3er año de secundaria.</li>
+         <li>Una copia de acta de nacimiento</li>
+         <li>Una copia curp (ampliacion T.Carta)</li>
+         <li>Dos fotografías tamaño infantil</li>
+         <li>Copia del INE del padre o tutor</li>
+         <li>Costo de la ficha $</li>
+         <br>
+         </div> 
+       </div>
+      </div>
+      
+      
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Registro de aspirantes</h1>
+         <div>
+         <p>Febrero 2 al 23 de Junio del 2016</p>
+         <br>
+         </div>
+       </div>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Cursos de nivelación</h1>
+         <div>
+         <p>7 sabados a partir del sabado 7 de Mayo al 18 de Junio del 2016 en área de matematicas y lectura</p>
+         <br>
+         </div>
+       </div>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Examen de admisión</h1>
+         <div>
+         <p>24 de Junio del 2016 a las 7:30am</p>
+         <br>
+         </div>
+       </div>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Inscripciones</h1>
+         <div>
+         <p>Del 6 al 12 de Julio del 2016</p>
+         <br>
+         </div>
+       </div>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Requisitos de inscripción</h1>
+         <div>
+         <li>Llenar solicitud de inscripcion</li>
+         <li>Firmar Carta compromiso</li>
+         <li>Certificado de secundaria, original y 2 copias</li>
+         <li>Curp 2 copias</li>
+         <li>Comprobante de domicilio 2 copias</li>
+         <li>6 fotografías tamaño infantil. Blanco y negro no instantaneas.</li>
+         <li>Certificado médico de buena salud cpn grupo sanguineo y factor RH.</li>
+         </div>
+       </div>
+      </div>
+     
+   </div>   
+   <div data-role="footer" data-theme="a">
+    <h4>Itzel Noemí Maya Muciño</h4>
+  </div>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ <!--Pagina 4 "Becas"-->
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Becas</h1>
+   </div>
+   <div data-role="content">
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h2>Abandono escolar</h2>
+         <div>
+         <li>¿A QUIÉN VA DIRIGIDA? </li>
+         <p>Estudiantes  integrantes de hogares con ingreso mensual per cápita menor o igual al del cuarto decil, en riesgo de abandonar sus estudios e inscritos en una institución pública de educación media superior en modalidad escolarizada, postulados a la beca por el Comité Institucional de Becas.</p>
+         <li>PERÍODO DE SOLICITUD:</li>
+         <p>Permanente - Permanente</p>
+         <li>APOYO:</li>
+         <p>Primero año: Hombre $650.00 (seiscientos cincuenta pesos 00/100 M.N.) Mujer $725.00 (setecientos veinticinco pesos 00/100 M.N) Segundo año: Hombre $725.00 (setecientos veinticinco pesos 00/100 M.N.) Mujer $800.00 (ochocientos pesos 00/100 M.N.) Tercer año: Hombre $800.00 (ochocientos pesos 00/100 M.N.) Mujer $875.00 (ochocientos setenta y cinco 00/100 M.N.)</p>
+
+         </div> 
+       </div>
+      </div>
+      
+      
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h2>Emprendedores competencias</h2>
+         <div>
+         <li>¿A QUIÉN VA DIRIGIDA? </li>
+         <p>Estudiantes de instituciones públicas de educación media superior, que desean desarrollar sus competencias emprendedoras a través de programas específicos, impulsados por la SEP o por otras organizaciones.</p>
+         <li>PERÍODO DE SOLICITUD:</li>
+         <p>Por determinar - Por determinar </p>
+         <li>APOYO:</li>
+         <p>Por determinar</p>
+         </div>
+       </div>
+      </div>
+      
+      <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Emprendedores negocio-postulación</h1>
+         <div>
+         <li>¿A QUIÉN VA DIRIGIDA? </li>
+         <p>Estudiantes de instituciones públicas de educación media superior, que desarrollan un modelo de negocio a través de alguna Institución de Fomento a la Cultura Emprendedora participante en el programa.</p>
+         <li>PERÍODO DE SOLICITUD:</li>
+         <p>Permanente - Permanente  </p>
+         <li>APOYO:</li>
+         <p>$10,000.00 (diez mil pesos 00/100 M.N.)</p>
+         </div>
+       </div>
+      </div>
+      <div align="center">
+  <p><a href="http://www.becasmediasuperior.sep.gob.mx/"><img src="imagenes/becas-media-superior.jpg" width="50%" height="30%" alt="imagen desierto" /></a></p>
+  <p>Toca la imagen para más información</p>
+  <br>
+  </div>
+   </div>   
+   <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Itzel Noemí Maya Muciño</h4>
+  </div>
+ </div>
+ 
+ <!--Pagina 5 "Instalaciones"-->
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Instalaciones</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+    <!-- Start WOWSlider.com -->
+<iframe src="visor/wowslider.html" style="width:640px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+    </div>
+    </div>
+   
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Itzel Noemí Maya Muciño</h4>
+  </div>
+ </div>
+</div>
+ 
+ <!--Pagina 6 "Contactanos"-->
+ <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Contactanos</h1>
+   </div>
+   <div data-role="content">
+   <div align="center">
+   <img src="imagenes/12687943_757091357768650_8020002967960166719_n.jpg" width="70%" height="50%">
+   </div>
+    
+    <h3 align="center">CBTIS 16 se encuentra ubicada en: </h3> <p align="center">Calle Fray Bartolome de las casas no. 2001 y Fray Servando Teresa de Mier, col. Ricardo Flores Magón Atlixco, Puebla</p>
+    <br>
+    <h3 align="center">Telefono:</h3><p align="center"> 4452543</p>
+    <br>
+    <h3 align="center">Correo electronico:</h3><p align="center"> cbtis016.dir@dgeti.sems.gob.mx</p>
+   </div>
+   <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Itzel Noemí Maya Muciño</h4>
+  </div>
+ </div>
+ 
+ <!--Pagina 7 Programación-->
+ <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Programación</h1>
+   </div>
+   <div data-role="content">
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Objetivo de la especialidad</h1>
+         <div>
+         <p>Desarrollar profesionales técnicos en programación que articulen saberes de diversos campos y realizar actividades dirigidas a la instalación y desarrollo de software de aplicación utilizando programación estructurada y orientada a objetos  en ambientes web y móviles, con almacenamiento persistente de datos. Configuración y administración de plataformas elearning  y comercio electrónico.</p>
+         <br>
+         </div> 
+       </div>
+      </div>
+      
+      
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Perfil de egreso</h1>
+         <div>
+         <li>Impulsar el desarrollo empresarial en función de las capacidades humanas y personales en la Industria del Software.</li>
+         <li>Seleccionar plataformas de software en función de las problemáticas a resolver.</li>
+         <li>Relación interpersonal de incorporación al entorno social.</li>
+       <li>Diseño e implantación de aplicaciones de software congruentes a las necesidades del entorno.</li>
+       <li>Mantenimiento y soporte adecuado a las aplicaciones de software existentes.</li>
+       <li>Generación de documentación técnica y de usuario para aplicaciones de software.</li>
+         <br>
+         </div>
+       </div>
+      </div>
+      
+   </div>   
+   <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Itzel Noemí Maya Muciño</h4>
+  </div>
+ </div>
+ <!--Pagina 8 Logistica-->
+ <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Logística</h1>
+   </div>
+   <div data-role="content">
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Objetivo de la especialidad</h1>
+         <div>
+         <p>La carrera de Técnico en Logística permite al estudiante realizar actividades dirigidas  a la administración de bienes, planificando los suministros destinados al almacenamiento de manera manual y electrónica, la organización de los nodos logísticos  para el transporte de mercancías  así como, proveer los servicios y atención  al cliente sobre los movimientos y los costos de la cadena logística.</p>
+         <br>
+         </div> 
+       </div>
+      </div>
+      
+      
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Perfil de egreso</h1>
+     <div>
+       <li>Capacidad de análisis y síntesis para la solución de problemas en los procesos logísticos internos como abastecimiento de materiales y materia prima, administración del almacén y optimización del flujo de los materiales, así mismo, para los procesos logísticos externos, por ejemplo, diseño de rutas, venta y distribución de producto terminado.</li>
+       <li>Capacidad de interrelación entre las actividades de gestión de abastecimiento, distribución y el servicio al cliente</li>
+       <li>Independencia de juicio en la toma de decisiones que permitan el adecuado flujo de los materiales mediante la selección de proveedores, medios y modos de transporte, así como la gestión y administración de los recursos financieros.</li>
+       <li>Capacidad creativa para la generación o innovación de los procesos logísticos en áreas de diseño de empaques, rutas de distribución y servicios con valor para cliente</li>
+       <li>Capacidad administrativa para la dirección y control de los recursos intelectuales, financieros y materiales en las áreas de compras, almacenamiento y distribución.</li>
+       <li>Intuición e imaginación en el diseño de empaques, envases y embalajes que procuren y garanticen la calidad, frescura y economía en el manejo de productos.</li>
+         <br>
+         </div>
+       </div>
+      </div>
+      
+   </div>   
+   <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Itzel Noemí Maya Muciño</h4>
+  </div>
+ </div>
+
+ <!--Pagina 9 Mecanica-->
+ <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Mecanica Industrial</h1>
+   </div>
+   <div data-role="content">
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Objetivo de la especialidad</h1>
+         <div>
+         <p>La carrera de Mecánica Industrial ofrece las competencias profesionales que permiten al estudiante dar mantenimiento a los sistemas de transmisión de potencia utilizando las máquinas herramientas convencionales, de control numérico, máquinas de soldar con arco eléctrico y oxigas auxiliándose de los procesos de ajuste de piezas mecánicas.</p>
+<p>El egresado posee conocimientos y habilidades para soldar y ajustar piezas mecánicas, maquilar piezas mecánicas en talador y torno, maquila piezas mecánicas en fresadora, rectificadora y cepillo, maquilar piezas mecánicas por CNC, mantener en forma óptima sistemas de transmisión de potencia como: mecánicos, eléctricos, hidráulicos y neumáticos, así como optimizar el aprovechamiento de la energía. Adicionalmente, con el bachillerato tecnológico concluido, el egresado podrá continuar sus estudios de nivel superior.
+</p>
+         <br>
+         </div> 
+       </div>
+      </div>
+      
+      
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Perfil de egreso</h1>
+      <div>
+       <li>Suelda y ajusta piezas mecánicas</li>
+       <li>Maquina piezas mecánicas en talador y torno</li>
+       <li>Maquina piezas mecánicas en fresadora, rectificadora y cepillo</li>
+       <li>Maquina piezas mecánicas por CNC</li>
+       <li>Mantiene sistemas de transmisión de potencia.</li>
+         </div>
+       </div>
+      </div>
+      
+   </div>   
+   <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Itzel Noemí Maya Muciño</h4>
+  </div>
+ </div>
+ <!--Pagina 10 electricidad-->
+ <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Electricidad</h1>
+   </div>
+   <div data-role="content">
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Objetivo de la especialidad</h1>
+         <div>
+         <p>Con esta especialidad aprendes sobre los diversos procesos de generación y transmisión de electricidad y te preparas para el manejo de las instalaciones eléctricas, domésticas, comerciales e industriales.</p>
+         <p>Puedes continuar estudiando como: Ingeniero Electromecánico, Ingeniero Electricista, Ingeniero en comunicaciones.</p>
+         <br>
+         </div> 
+       </div>
+      </div>
+      
+      
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Perfil de egreso</h1>
+         <div>
+         <li>Al egresar, habrás obtenido las competencias que te brindarán una formación integral para incorporarte a la vida cotidiana, así como desempeñarte en diferentes ambientes laborales, ejerciendo la toma de decisiones con una actitud crítica, creativa, ética y responsable, y participando activamente en el mercado productivo con desempeño competitivo en el mundo del trabajo. Adicionalmente, si tú así lo decides, contarás con las competencias necesarias, para el acceso a la educación superior, en cualquiera de nuestros 4 campos disciplinales que ofrece el colegio. </li>
+         <br>
+         </div>
+       </div>
+      </div>
+      
+   </div>   
+   <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Itzel Noemí Maya Muciño</h4>
+  </div>
+ </div>
+
+ 
+</body>
+</html>
